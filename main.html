@@ -12,7 +12,7 @@
 <body>
 
 
-    <div class="title">
+    <div id="home" class="title">
         <h1>hello</h1>
         <p>My name is
             <span class="name">Erica Stone</span>
@@ -21,43 +21,50 @@
             <button>View My Work</button>
         </a>
         <div class="navbar" id="work">
-
+            <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#work">Work</a>
-            <a href="#contact">Contact</a>
 
         </div>
     </div>
-    <div class="page-wrapper">
 
-        <div class="section" id="work">
-
+    <section id="work" class="flex">
+        <div class="section-wrapper">
             <div class="project">
-                <h2>Project 1</h2>
-                <a href="">
+                <h2>Project 1 Placeholder</h2>
+                <a href="https://github.com/plum03/trivia">
                     <img src="waves.jpg" alt="" class="thumbnail">
                 </a>
             </div>
 
             <div class="project">
-                <h2>Project 2</h2>
-                <a href="">
+                <h2>Project 2 Placeholder</h2>
+                <a href="https://github.com/plum03/rock-the-vote">
                     <img src="green.jpg" alt="" class="thumbnail">
                 </a>
             </div>
-
         </div>
-        <!-- About Me -->
-        <div class="section" id="about">
 
+
+    </section>
+    <!-- About Me -->
+    <section id="about" class="flex">
+        <div class="section-wrapper">
+                <img src="dots.jpg" alt="" class="my-pic">
+                <div class="blurb flex">
+                    <h2>Erica Stone</h2>
+                    <p>this is some stuff about me....</p>
+                    <a href="https://www.linkedin.com/in/erica-s-16308372/">LinkedIn</a>
+                    <a href="https://github.com/plum03">GitHub</a>
+                    <a href="https://docs.google.com/document/d/1GrcmzZhW3CC-9fJzifyRg8rwzMkh6a-0KRGcsEWRdc8/edit?usp=sharing">Resume</a>
+                </div>
         </div>
-        <!-- Contact Info -->
-        <div class="section" id="contact">
+        
 
-        </div>
-    </div>
+    </section>
+    <!-- Contact Info -->
 
-<script src="scripts.js"></script>
+    <script src="scripts.js"></script>
 
 </body>
 
